@@ -3,7 +3,6 @@
 html,
 body,
 #root,
-.app,
 .content {
   height: 100%;
   width: 100%;
@@ -11,6 +10,7 @@ body,
 }
 
 .app {
+  height: auto;
   display: flex;
   position: relative;
 }
